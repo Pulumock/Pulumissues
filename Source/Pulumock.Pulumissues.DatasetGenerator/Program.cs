@@ -16,6 +16,7 @@ var services = new ServiceCollection();
 
 services.Configure<GitHubOptions>(options => configuration.GetSection(GitHubOptions.Key).Bind(options));
 services.Configure<PulumiRepositoryOptions>(options => configuration.GetSection(PulumiRepositoryOptions.Key).Bind(options));
+services.Configure<PulumiDotnetRepositoryOptions>(options => configuration.GetSection(PulumiDotnetRepositoryOptions.Key).Bind(options));
 services.Configure<ProtiRepositoryOptions>(options => configuration.GetSection(ProtiRepositoryOptions.Key).Bind(options));
 services.Configure<DatasetOptions>(options => configuration.GetSection(DatasetOptions.Key).Bind(options));
 
@@ -30,6 +31,7 @@ services.AddHttpClient<IGitHubClient, GitHubClient>((provider, client) =>
 });
 
 services.AddTransient<IGitHubMiner, GitHubMiner<PulumiRepositoryOptions>>();
+services.AddTransient<IGitHubMiner, GitHubMiner<PulumiDotnetRepositoryOptions>>();
 services.AddTransient<IGitHubMiner, GitHubMiner<ProtiRepositoryOptions>>();
 services.AddTransient<IDatasetGenerator, DatasetGenerator>();
 
