@@ -2,6 +2,8 @@
 
     <PropertyGroup>
         <OutputType>Exe</OutputType>
+        <RootNamespace>Pulumock.Pulumissues.Dataset</RootNamespace>
+        <PackageId>Pulumock.Pulumissues.Dataset</PackageId>
         <UserSecretsId>5e2c6961-29b4-4f65-b918-8109f1d1feb1</UserSecretsId>
     </PropertyGroup>
 
