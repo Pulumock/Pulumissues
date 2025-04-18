@@ -1,4 +1,4 @@
-namespace Pulumock.Pulumissues.Dataset.Options;
+namespace Pulumock.Pulumissues.DatasetGenerator.Options;
 
 internal sealed class DatasetOptions
 {

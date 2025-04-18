@@ -1,6 +1,6 @@
-using Pulumock.Pulumissues.Dataset.Options;
+using Pulumock.Pulumissues.DatasetGenerator.Options;
 
-namespace Pulumock.Pulumissues.Dataset.Services;
+namespace Pulumock.Pulumissues.DatasetGenerator.Services;
 
 internal interface IGitHubMiner
 {

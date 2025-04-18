@@ -1,9 +1,9 @@
 using Microsoft.Extensions.Options;
-using Pulumock.Pulumissues.Dataset.Clients;
-using Pulumock.Pulumissues.Dataset.Clients.Responses;
-using Pulumock.Pulumissues.Dataset.Options;
+using Pulumock.Pulumissues.DatasetGenerator.Clients;
+using Pulumock.Pulumissues.DatasetGenerator.Clients.Responses;
+using Pulumock.Pulumissues.DatasetGenerator.Options;
 
-namespace Pulumock.Pulumissues.Dataset.Services;
+namespace Pulumock.Pulumissues.DatasetGenerator.Services;
 
 internal sealed class GitHubMiner<T>(IGitHubClient gitHubClient, IOptions<T> options) : IGitHubMiner<T> where T : RepositoryOptionsBase
 {

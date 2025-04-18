@@ -1,8 +1,8 @@
 using Microsoft.Extensions.Options;
-using Pulumock.Pulumissues.Dataset.Options;
-using Pulumock.Pulumissues.Dataset.Utils;
+using Pulumock.Pulumissues.DatasetGenerator.Options;
+using Pulumock.Pulumissues.DatasetGenerator.Utils;
 
-namespace Pulumock.Pulumissues.Dataset.Services;
+namespace Pulumock.Pulumissues.DatasetGenerator.Services;
 
 #pragma warning disable CA1303
 internal sealed class DatasetGenerator(IEnumerable<IGitHubMiner> miners, IOptions<DatasetOptions> options) : IDatasetGenerator

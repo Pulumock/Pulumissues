@@ -1,6 +1,6 @@
 using System.Text.Json.Serialization;
 
-namespace Pulumock.Pulumissues.Dataset.Clients.Responses;
+namespace Pulumock.Pulumissues.DatasetGenerator.Clients.Responses;
 
 internal sealed record GetGitHubIssuesAsyncResponse
 {

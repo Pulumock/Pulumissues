@@ -1,6 +1,6 @@
-using Pulumock.Pulumissues.Dataset.Clients.Responses;
+using Pulumock.Pulumissues.DatasetGenerator.Clients.Responses;
 
-namespace Pulumock.Pulumissues.Dataset.Services;
+namespace Pulumock.Pulumissues.DatasetGenerator.Services;
 
 internal sealed record GitHubMinerResult
 {

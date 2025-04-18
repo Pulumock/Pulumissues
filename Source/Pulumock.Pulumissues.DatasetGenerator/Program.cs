@@ -1,7 +1,7 @@
 ﻿using System.Net.Http.Headers;
-using Pulumock.Pulumissues.Dataset.Clients;
-using Pulumock.Pulumissues.Dataset.Options;
-using Pulumock.Pulumissues.Dataset.Services;
+using Pulumock.Pulumissues.DatasetGenerator.Clients;
+using Pulumock.Pulumissues.DatasetGenerator.Options;
+using Pulumock.Pulumissues.DatasetGenerator.Services;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
@@ -26,7 +26,7 @@ services.AddHttpClient<IGitHubClient, GitHubClient>((provider, client) =>
     client.BaseAddress = gitHubOptions.BaseUri;
     client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", gitHubOptions.Token);
     client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue(gitHubOptions.MediaType));
-    client.DefaultRequestHeaders.UserAgent.Add(new ProductInfoHeaderValue("Pulumock-Pulumock.Pulumissues.Dataset", "1.0.0"));
+    client.DefaultRequestHeaders.UserAgent.Add(new ProductInfoHeaderValue("Pulumock-Pulumock.Pulumissues.DatasetGenerator", "1.0.0"));
 });
 
 services.AddTransient<IGitHubMiner, GitHubMiner<PulumiRepositoryOptions>>();
