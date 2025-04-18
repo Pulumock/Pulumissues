@@ -1,4 +1,4 @@
-namespace Pulumock.Pulumissues.Dataset.Services;
+namespace Pulumock.Pulumissues.DatasetGenerator.Services;
 
 internal interface IDatasetGenerator
 {

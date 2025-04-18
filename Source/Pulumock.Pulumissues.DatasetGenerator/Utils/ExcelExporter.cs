@@ -1,8 +1,8 @@
 using ClosedXML.Excel;
-using Pulumock.Pulumissues.Dataset.Clients.Responses;
-using Pulumock.Pulumissues.Dataset.Services;
+using Pulumock.Pulumissues.DatasetGenerator.Clients.Responses;
+using Pulumock.Pulumissues.DatasetGenerator.Services;
 
-namespace Pulumock.Pulumissues.Dataset.Utils;
+namespace Pulumock.Pulumissues.DatasetGenerator.Utils;
 
 internal static class ExcelExporter
 {

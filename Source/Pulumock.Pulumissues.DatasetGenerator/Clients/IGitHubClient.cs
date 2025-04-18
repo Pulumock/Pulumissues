@@ -1,8 +1,8 @@
 using Microsoft.Extensions.Options;
-using Pulumock.Pulumissues.Dataset.Clients.Responses;
-using Pulumock.Pulumissues.Dataset.Options;
+using Pulumock.Pulumissues.DatasetGenerator.Clients.Responses;
+using Pulumock.Pulumissues.DatasetGenerator.Options;
 
-namespace Pulumock.Pulumissues.Dataset.Clients;
+namespace Pulumock.Pulumissues.DatasetGenerator.Clients;
 
 internal interface IGitHubClient
 {

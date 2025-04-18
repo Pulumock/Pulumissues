@@ -9,7 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Config", "Config", "{887766
 		nuget.config = nuget.config
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pulumock.Pulumissues.Dataset", "Pulumock.Pulumissues.Dataset\Pulumock.Pulumissues.Dataset.csproj", "{264D415A-1912-45EC-A957-429A8D7EE420}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pulumock.Pulumissues.DatasetGenerator", "Pulumock.Pulumissues.DatasetGenerator\Pulumock.Pulumissues.DatasetGenerator.csproj", "{264D415A-1912-45EC-A957-429A8D7EE420}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

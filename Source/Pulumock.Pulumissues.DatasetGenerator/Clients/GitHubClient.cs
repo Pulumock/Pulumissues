@@ -2,10 +2,10 @@ using System.Globalization;
 using System.Net.Http.Json;
 using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.Extensions.Options;
-using Pulumock.Pulumissues.Dataset.Clients.Responses;
-using Pulumock.Pulumissues.Dataset.Options;
+using Pulumock.Pulumissues.DatasetGenerator.Clients.Responses;
+using Pulumock.Pulumissues.DatasetGenerator.Options;
 
-namespace Pulumock.Pulumissues.Dataset.Clients;
+namespace Pulumock.Pulumissues.DatasetGenerator.Clients;
 
 internal sealed class GitHubClient(HttpClient httpClient) : IGitHubClient
 {
