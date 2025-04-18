@@ -23,6 +23,10 @@ internal sealed class GitHubMiner<T>(IGitHubClient gitHubClient, IOptions<T> opt
             
             if (options.Value.Terms is not null && options.Value.Terms.Count > 0)
             {
+                Console.WriteLine(options.Value.Repo);
+                Console.WriteLine(options.Value.Terms.First());
+                Console.WriteLine(filteredIssues.Count());
+              
                 filteredIssues = filteredIssues.Where(i => 
                     ContainsTerm(i.Title, options.Value.Terms) || ContainsTerm(i.Body, options.Value.Terms));
             }
