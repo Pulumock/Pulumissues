@@ -1,6 +1,16 @@
+<p align="center">
+    <a href="https://github.com/Pulumock/Pulumissues" title="Pulumissues - An aggregated dataset of Pulumi unit testing issues">
+        <img src="Pulumissues-logo-nobg.png" width="150" alt="Project logo" />
+    </a>
+</p>
+
+[![License](https://img.shields.io/github/license/Pulumock/Pulumissues)](LICENSE)
+[![GitHub Discussions](https://img.shields.io/github/discussions/Pulumock/Pulumock)](https://github.com/orgs/Pulumock/discussions)
+[![GitHub issues](https://img.shields.io/github/issues/Pulumock/Pulumissues)](https://github.com/Pulumock/Pulumissues/issues)
+
 # Pulumissues
 
-This project contains the source code and datasets for analyzing testing-related Pulumi GitHub issues.
+Pulumissues provides the source code and datasets used for analyzing testing-related GitHub issues in Pulumi projects.
 
 ## Dataset generator
 
